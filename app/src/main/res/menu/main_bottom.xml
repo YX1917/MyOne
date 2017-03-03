@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_main"
+        android:icon="@drawable/bottom_home"
+        android:title="@string/menu_home"/>
+    <item
+        android:id="@+id/bottom_news"
+        android:icon="@drawable/bottom_read"
+        android:title="@string/menu_read"/>
+    <item
+        android:id="@+id/bottom_communication"
+        android:icon="@drawable/bottom_music"
+        android:title="@string/menu_music"/>
+    <item
+        android:id="@+id/bottom_mine"
+        android:icon="@drawable/bottom_movie"
+        android:title="@string/menu_movie"/>
+
+</menu>

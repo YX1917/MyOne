@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyOne</string>
+    <string name="menu_home">首页</string>
+    <string name="menu_music">阅读</string>
+    <string name="menu_read">音乐</string>
+    <string name="menu_movie">影片</string>
+    <string name="one">一个</string>
 </resources>

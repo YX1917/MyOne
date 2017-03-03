@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_18">
+
+            <TextView
+                android:id="@+id/tv_readDetail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_12"
+                android:text="真实的故事 他的职业是病人"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_24"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="@dimen/text_size_18"
+                android:background="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_readDetail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_24"
+                android:text="文/共青旗"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size_15"
+                android:lineSpacingMultiplier ="1.2"
+                android:textColor="@color/black"
+                android:id="@+id/tv_readDetail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="责任编辑：尚可"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_24"
+                android:text="本文付费转载"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_10"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
